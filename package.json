@@ -1,0 +1,26 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify app/js/main.js -o app/bundle.js",
+    "watchify": "watchify app/js/main.js --s pong -o app/bundle.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LoginAndPlay/pong.git"
+  },
+  "author": "Jordan Watkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoginAndPlay/pong/issues"
+  },
+  "homepage": "https://github.com/LoginAndPlay/pong",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "jquery": "^2.1.1",
+    "watchify": "^2.1.1"
+  }
+}

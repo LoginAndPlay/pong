@@ -1,0 +1,3 @@
+function Paddle() {}
+
+module.exports = {};
